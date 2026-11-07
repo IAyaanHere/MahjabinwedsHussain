@@ -34,8 +34,8 @@ window.INVITATION_CONFIG = {
     "formalBackground": "./assets/images/formal-ivory-floral.webp",
     "eventBackground": "./assets/images/pearl-floral-event.webp",
     "blessingsBackground": "./assets/images/closing-evening-garden.webp",
-    "hands": "./assets/images/couple.jpg",
-    "couple": "./assets/images/couple.jpg",
+    "hands": "./assets/images/couple.png",
+    "couple": "./assets/images/couple.png",
     "verseBackground": "./assets/images/mosque-courtyard.webp"
   },
   "opening": {
