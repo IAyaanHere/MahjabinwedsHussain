@@ -161,3 +161,14 @@ svg { display:block; }
   line-height: 0;
 }
 
+
+
+/* Bold Fonts for Date, Time, and Venue */
+.event-date { font-weight: 700; }
+.event-weekday { font-weight: 700; }
+.event-venue { font-weight: 700; }
+.event-address { font-weight: 600; }
+.programme-name { font-weight: 700; }
+.programme-time { font-weight: 700; }
+.countdown-date { font-weight: 700; }
+.scratch-value { font-weight: 700; }

@@ -120,7 +120,17 @@
     }
     card.append(title, ornament, details);
     const actions = element('div', 'event-actions');
-    if (event.locationDemoMessage) {
+    if (event.mapUrl) {
+      const link = element('a', 'map-link');
+      link.href = event.mapUrl;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      const ns = 'http://www.w3.org/2000/svg';
+      const svg = document.createElementNS(ns, 'svg'); svg.setAttribute('width', '13'); svg.setAttribute('height', '15'); svg.setAttribute('viewBox', '0 0 24 28'); svg.setAttribute('aria-hidden', 'true');
+      const path = document.createElementNS(ns, 'path'); path.setAttribute('d', 'M12 2a9 9 0 0 0-9 9c0 6 9 15 9 15s9-9 9-15a9 9 0 0 0-9-9Z M15 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0'); path.setAttribute('fill', 'none'); path.setAttribute('stroke', 'currentColor'); path.setAttribute('stroke-width', '1.5'); svg.append(path);
+      link.append(svg, element('span', '', event.mapLabel || 'View location'));
+      actions.append(link);
+    } else if (event.locationDemoMessage) {
       const button = element('button', 'map-link'); button.type = 'button';
       const message = element('p', 'location-demo-message', event.locationDemoMessage);
       message.id = `${event.id}LocationDemo`; message.hidden = true; message.setAttribute('role', 'status');
@@ -135,7 +145,7 @@
       button.append(svg, element('span', '', event.mapLabel)); actions.append(button, message);
     }
     const calendar = element('a', 'map-link calendar-link', event.calendarLabel);
-    calendar.href = './media/nikkah.ics'; calendar.download = 'Amina-Zayan-Nikkah.ics';
+    calendar.href = './media/nikkah.ics'; calendar.download = `${config.hero.bride}-${config.hero.groom}-Nikah.ics`;
     actions.append(calendar); card.append(actions);
     section.append(card); select('#events').append(section);
   });

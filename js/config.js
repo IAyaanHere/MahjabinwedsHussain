@@ -1,15 +1,15 @@
-/** Fictional demo invitation: pearl event card and controlled opening. */
+/** Wedding invitation: Mahjabin Khan & Mohammad Hussain Malani */
 window.INVITATION_CONFIG = {
   "site": {
     "language": "en",
-    "title": "Amina & Zayan — Nikkah Invitation Demo",
-    "description": "A fictional Nikkah invitation demo for Amina Rahman and Zayan Farooq.",
-    "ogTitle": "Wedding Invitation Demo — Amina & Zayan",
-    "ogDescription": "Tap to Open · Fictional invitation demo"
+    "title": "Mahjabin & Hussain — Nikah Invitation",
+    "description": "Nikah invitation for Mahjabin Khan and Mohammad Hussain Malani.",
+    "ogTitle": "Wedding Invitation — Mahjabin & Hussain",
+    "ogDescription": "Tap to Open · Wedding Invitation"
   },
   "couple": {
-    "bride": "Amina Rahman",
-    "groom": "Zayan Farooq",
+    "bride": "Mahjabin Khan",
+    "groom": "Mohammad Hussain Malani",
     "separator": "&"
   },
   "theme": {
@@ -26,7 +26,7 @@ window.INVITATION_CONFIG = {
     "introVideo": "./media/ribbon-doves-intro-v3-fast.mp4",
     "introPoster": "./assets/images/ribbon-poster-v2.jpg",
     "heroPoster": "./assets/images/mosque-couple-fast-final.webp",
-    "monogram": "./assets/images/gold-az-monogram-custom.png",
+    "monogram": "./assets/images/gold-mh-monogram.svg",
     "ogImage": "./assets/images/wedding-demo.jpg",
     "music": "./media/audio-5.mp3",
     "divider": "./assets/images/divider.png",
@@ -34,12 +34,13 @@ window.INVITATION_CONFIG = {
     "formalBackground": "./assets/images/formal-ivory-floral.webp",
     "eventBackground": "./assets/images/pearl-floral-event.webp",
     "blessingsBackground": "./assets/images/closing-evening-garden.webp",
-    "hands": "./assets/images/hands.webp",
+    "hands": "./assets/images/couple.jpg",
+    "couple": "./assets/images/couple.jpg",
     "verseBackground": "./assets/images/mosque-courtyard.webp"
   },
   "opening": {
     "label": "Open invitation",
-    "accessibleLabel": "Open wedding invitation demo",
+    "accessibleLabel": "Open wedding invitation",
     "musicVolume": 0.3,
     "transitionMs": 300,
     "playbackTimeoutMs": 12000,
@@ -47,22 +48,22 @@ window.INVITATION_CONFIG = {
     "chromeDelayMs": 2400
   },
   "hero": {
-    "bride": "Amina",
-    "groom": "Zayan",
+    "bride": "Mahjabin",
+    "groom": "Hussain",
     "bismillah": "﷽",
     "families": "Together with our families",
-    "occasions": "Nikkah Ceremony",
+    "occasions": "Nikah Ceremony",
     "scroll": "Scroll down",
-    "date": "23 January 2027"
+    "date": "13 December 2026"
   },
   "formal": {
     "eyebrow": "With the blessings of Allah",
-    "invitation": "Together with our families, we cordially invite you to share in the joy and honour us with your presence at the Nikkah of",
+    "invitation": "Together with our families, we cordially invite you to share in the joy and honour us with your presence at the Nikah of",
     "brideRelation": "Daughter of",
-    "brideParents": "Imran Rahman & Sara Rahman",
+    "brideParents": "Mohammad Khan",
     "joining": "and",
     "groomRelation": "Son of",
-    "groomParents": "Yusuf Farooq & Mariam Farooq",
+    "groomParents": "Hanif Malani",
     "closing": ""
   },
   "scratch": {
@@ -73,24 +74,24 @@ window.INVITATION_CONFIG = {
     "accessibilityHint": "scratch, or press Enter or Space",
     "items": [
       {
-        "value": "23",
+        "value": "13",
         "label": "Day"
       },
       {
-        "value": "JAN",
+        "value": "DEC",
         "label": "Month"
       },
       {
-        "value": "2027",
+        "value": "2026",
         "label": "Year"
       }
     ],
-    "completeMessage": "Saturday, 23 January 2027.",
+    "completeMessage": "Sunday, 13 December 2026.",
     "hint": "Scratch the gold seals to reveal our date."
   },
   "countdown": {
-    "title": "Until our Nikkah",
-    "isoDate": "2027-01-23T11:00:00+05:30",
+    "title": "Until our Nikah",
+    "isoDate": "2026-12-13T12:30:00+05:30",
     "timeZone": "Asia/Kolkata",
     "labels": [
       "Days",
@@ -98,30 +99,26 @@ window.INVITATION_CONFIG = {
       "Minutes",
       "Seconds"
     ],
-    "dateLine": "Saturday, 23 January 2027",
-    "accessibleLabel": "Time until the Nikkah on 23 January 2027 at 11 am, India Standard Time",
-    "completeMessage": "Our Nikkah day has arrived."
+    "dateLine": "Sunday, 13 December 2026",
+    "accessibleLabel": "Time until the Nikah on 13 December 2026 at 12:30 pm, India Standard Time",
+    "completeMessage": "Our Nikah day has arrived."
   },
   "events": [
     {
-      "id": "nikkah",
+      "id": "nikah",
       "eyebrow": "The celebration",
-      "name": "Nikkah",
-      "weekday": "Saturday",
-      "date": "23 January 2027",
+      "name": "Nikah",
+      "weekday": "Sunday",
+      "date": "13th December 2026",
       "programme": [
         {
-          "name": "Nikkah",
-          "time": "11:00 am"
-        },
-        {
-          "name": "Lunch",
-          "time": "1:00 pm"
+          "name": "Nikah",
+          "time": "12:30 pm"
         }
       ],
-      "venue": "The Ivory Pavilion",
-      "address": "Crescent Avenue · Bengaluru · India",
-      "locationDemoMessage": "Demo location only. The Ivory Pavilion is a fictional venue; no directions are available.",
+      "venue": "Al Madina Heights",
+      "address": "1st Floor, Maulana Azad Road, Dalal Estate, Mumbai Central, Mumbai - 400008",
+      "mapUrl": "https://maps.google.com/?q=Al+Madina+Heights,+Maulana+Azad+Road,+Dalal+Estate,+Mumbai+Central,+Mumbai+-+400008",
       "mapLabel": "View location",
       "calendarLabel": "Save to calendar",
       "invocation": "إِنْ شَاءَ اللَّهُ"
@@ -147,7 +144,7 @@ window.INVITATION_CONFIG = {
   "wellWishes": {
     "eyebrow": "A beautiful beginning",
     "message": "We look forward to celebrating with you.",
-    "signoff": "With love, Amina & Zayan"
+    "signoff": "With love, Mahjabin & Hussain"
   },
   "interface": {
     "muteMusic": "Mute music",

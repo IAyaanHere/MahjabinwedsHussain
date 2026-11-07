@@ -1,16 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Naqsh Digital//Amina Zayan Nikkah Demo//EN
+PRODID:-//Noor Invites//Mahjabin Hussain Nikah//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:amina-zayan-demo-nikkah-20270123@naqshdigital.in
-DTSTAMP:20261023T000000Z
-DTSTART:20270123T053000Z
-SUMMARY:Amina & Zayan — Nikkah Ceremony (Demo)
-LOCATION:The Ivory Pavilion (fictional)\, Crescent Avenue\,
-  Bengaluru\, India
-DESCRIPTION:Fictional invitation demo.\nNikkah at 11:00 am IST
-  (Asia/Kolkata\, UTC+05:30).\nReception Lunch at 1:00 pm IST.
+UID:mahjabin-hussain-nikah-20261213@noorinvites.in
+DTSTAMP:20261107T000000Z
+DTSTART:20261213T070000Z
+DTEND:20261213T103000Z
+SUMMARY:Mahjabin & Hussain — Nikah Ceremony
+LOCATION:Al Madina Heights\, 1st Floor\, Maulana Azad Road\, Dalal Estate\, Mumbai Central\, Mumbai - 400008
+DESCRIPTION:Nikah ceremony of Mahjabin Khan and Mohammad Hussain Malani.\nTime: 12:30 pm IST (Asia/Kolkata\, UTC+05:30).\nVenue: Al Madina Heights\, 1st Floor\, Maulana Azad Road\, Dalal Estate\, Mumbai Central\, Mumbai - 400008.
 END:VEVENT
 END:VCALENDAR

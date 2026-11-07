@@ -1,6 +1,6 @@
-# Velvet / Afsana - Recovered Frontend Project
+# Mahjabin & Hussain — Wedding Invitation Website
 
-This folder contains the complete, locally runnable frontend reconstruction for the wedding invitation demo (**Amina & Zayan — Nikkah Invitation Demo**), recovered directly from public browser-delivered assets.
+This folder contains the complete, locally runnable frontend project for the wedding invitation of **Mahjabin Khan & Mohammad Hussain Malani**.
 
 ## Project Structure
 
