@@ -118,7 +118,7 @@ window.INVITATION_CONFIG = {
       ],
       "venue": "Al Madina Heights",
       "address": "1st Floor, Maulana Azad Road, Dalal Estate, Mumbai Central, Mumbai - 400008",
-      "mapUrl": "https://maps.google.com/?q=Al+Madina+Heights,+Maulana+Azad+Road,+Dalal+Estate,+Mumbai+Central,+Mumbai+-+400008",
+      "mapUrl": "https://maps.app.goo.gl/yRfabQcqf5NT6x8A8?g_st=iw",
       "mapLabel": "View location",
       "calendarLabel": "Save to calendar",
       "invocation": "إِنْ شَاءَ اللَّهُ"
